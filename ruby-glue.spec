@@ -11,7 +11,7 @@ License:	Ruby-alike
 Group:		Development/Languages
 Source0:	http://rubyforge.org/download.php/3715/%{tarname}-%{version}.tgz
 # Source0-md5:	10499965a0c122900d141c5bfe136611
-uRL:		http://rubyforge.org/projects/nitro/
+URL:		http://rubyforge.org/projects/nitro/
 BuildRequires:	ruby
 Requires:	ruby
 #BuildArch:	noarch
@@ -21,7 +21,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This package contains the Glue for Nitro + Og.
 
 %description -l pl
-Ten pakiet zawieta Glue dla Nitro + Og.
+Ten pakiet zawiera bibliotekê Glue dla Nitro + Og.
 
 %prep
 %setup -q -n %{tarname}-%{version}
