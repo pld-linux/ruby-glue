@@ -5,12 +5,12 @@ Summary:	Glue library for Nitro + Og
 Summary(pl):	Biblioteka Glue dla Nitro + Og
 Name:		ruby-Glue
 %define tarname glue
-Version:	0.16.0
+Version:	0.17.0
 Release:	1
 License:	Ruby-alike
 Group:		Development/Languages
-Source0:	http://rubyforge.org/download.php/4085/%{tarname}-%{version}.tgz
-# Source0-md5:	5d6387305675cb2768d57e564fe6e916
+Source0:	http://rubyforge.org/download.php/4483/%{tarname}-%{version}.tgz
+# Source0-md5:	bf09602ad415a38dd5d75410ce193f3a
 URL:		http://rubyforge.org/projects/nitro/
 BuildRequires:	ruby
 Requires:	ruby
