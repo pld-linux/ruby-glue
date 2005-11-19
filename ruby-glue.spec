@@ -1,10 +1,7 @@
-%define	ruby_rubylibdir	%(ruby -r rbconfig -e 'print Config::CONFIG["rubylibdir"]')
-%define	ruby_ridir	%(ruby -r rbconfig -e 'include Config; print File.join(CONFIG["datadir"], "ri", CONFIG["ruby_version"])')
-%define	ruby_version	%(ruby -r rbconfig -e 'print Config::CONFIG["ruby_version"]')
+%define tarname glue
 Summary:	Glue library for Nitro + Og
 Summary(pl):	Biblioteka Glue dla Nitro + Og
 Name:		ruby-Glue
-%define tarname glue
 Version:	0.25.0
 Release:	1
 License:	Ruby-alike
@@ -12,6 +9,7 @@ Group:		Development/Languages
 Source0:	http://rubyforge.org/download.php/7164/%{tarname}-%{version}.tgz
 # Source0-md5:	98d61d4f04ec8feaf93971028b9dca90
 URL:		http://rubyforge.org/projects/nitro/
+BuildRequires:	rpmbuild(macros) >= 1.263
 BuildRequires:	ruby
 Requires:	ruby
 #BuildArch:	noarch
@@ -24,7 +22,6 @@ This package contains the Glue for Nitro + Og.
 Ten pakiet zawiera bibliotekê Glue dla Nitro + Og.
 
 %prep
-#%setup -q -n %{tarname}-%{version}
 %setup -q -n %{tarname}
 
 %build
