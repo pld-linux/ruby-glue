@@ -9,9 +9,9 @@ Group:		Development/Languages
 Source0:	http://rubyforge.org/download.php/7164/%{tarname}-%{version}.tgz
 # Source0-md5:	98d61d4f04ec8feaf93971028b9dca90
 URL:		http://rubyforge.org/projects/nitro/
-BuildRequires:	rpmbuild(macros) >= 1.263
+BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-modules
-Requires:	ruby-modules
+%ruby_mod_ver_requires_eq
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
