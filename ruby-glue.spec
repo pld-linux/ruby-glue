@@ -11,7 +11,7 @@ Source0:	http://rubyforge.org/download.php/7164/%{tarname}-%{version}.tgz
 URL:		http://rubyforge.org/projects/nitro/
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-modules
-%ruby_mod_ver_requires_eq
+%{?ruby_mod_ver_requires_eq}
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
