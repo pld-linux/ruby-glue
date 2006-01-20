@@ -13,7 +13,7 @@ BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-modules
 %{?ruby_mod_ver_requires_eq}
 #BuildArch:	noarch
-Requires:		ruby-facets >= 1.0.0
+Requires:		ruby-facets = 2005.10.30
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
