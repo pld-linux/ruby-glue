@@ -14,6 +14,7 @@ BuildRequires:	ruby-modules
 %{?ruby_mod_ver_requires_eq}
 #BuildArch:	noarch
 Requires:		ruby-facets = 2005.10.30
+Requires:		ruby-redcloth
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
