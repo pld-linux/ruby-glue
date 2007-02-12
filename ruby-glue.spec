@@ -1,6 +1,6 @@
 %define tarname glue
 Summary:	Glue library for Nitro + Og
-Summary(pl.UTF-8):   Biblioteka Glue dla Nitro + Og
+Summary(pl.UTF-8):	Biblioteka Glue dla Nitro + Og
 Name:		ruby-Glue
 Version:	0.27.0
 Release:	1
