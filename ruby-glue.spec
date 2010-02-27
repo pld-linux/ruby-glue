@@ -15,6 +15,7 @@ BuildRequires:	ruby-modules
 Requires:	ruby-facets = 2005.10.30
 Requires:	ruby-redcloth
 Obsoletes:	ruby-Glue
+Provides:	ruby-Glue
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
